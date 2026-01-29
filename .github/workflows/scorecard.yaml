@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   schedule:
-    cron: ’0 6 * * 1’ # Chaque lundi a 6h
+    - cron: ’0 6 * * 1’ # Chaque lundi a 6h
 
 permissions: read-all
 
